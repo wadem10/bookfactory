@@ -16,7 +16,7 @@
                     This tool can be used to research, save, review, prioritize, and purchase books.
                 </p>
             </div>
-            <table class="cs-table">
+            <table id="myTable" class="cs-table">
                 <thead>
                     <tr class="cs-color">
                         <th class="cs-th">Business Books</th>
@@ -27,7 +27,10 @@
                 </thead>
                 <tbody>
                     <tr class="cs-tr">
-                        <td class="cs-td">One-Time Set-Up Fee in QuickBooks Online</td>
+                        <td class="cs-td">
+                            <span id="editableCell">One-Time Set-Up Fee in QuickBooks Online</span>
+                            <input type="text" id="editInput" style="display: none;">
+                        </td>
                         <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
                         <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
                         <td class="cs-td"><img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/check5.svg" alt="icon" width="16" height="16" loading="lazy" decoding="async" aria-hidden="true"></td>
@@ -224,5 +227,6 @@
             </table>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
